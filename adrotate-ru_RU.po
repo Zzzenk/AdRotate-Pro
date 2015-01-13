@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: AdRotate Pro\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-15 01:12+0100\n"
-"PO-Revision-Date: 2015-01-13 23:16+0300\n"
+"PO-Revision-Date: 2015-01-14 00:21+0300\n"
 "Last-Translator: Arnan de Gans <info@ajdg.net>\n"
 "Language-Team: Zenk <zenk@list.ru>\n"
 "Language: ru_RU\n"
@@ -67,7 +67,7 @@ msgstr "Это тестовое уведомление!"
 
 #: adrotate-functions.php:1287
 msgid "This notification is sent to you from your website"
-msgstr ""
+msgstr "Это уведомление отправлено с вашего сайта"
 
 #: adrotate-functions.php:1288
 msgid ""
@@ -101,47 +101,43 @@ msgstr ""
 
 #: adrotate-functions.php:1341
 msgid "[AdRotate] An advertiser has put in a request for renewal!"
-msgstr ""
+msgstr "[AdRotate] Рекламодатель оставил запрос на продление!"
 
 #: adrotate-functions.php:1342
 msgid "[AdRotate] An advertiser wants his ad removed."
-msgstr ""
+msgstr "[AdRotate] Рекламодатель хочет удалить свое объявление."
 
 #: adrotate-functions.php:1343
 msgid "[AdRotate] An advertiser wrote a comment on his ad!"
-msgstr ""
+msgstr "[AdRotate] Рекламодатель написал комментарий к своему объявлению!"
 
 #: adrotate-functions.php:1344
 msgid "[AdRotate] An advertiser has a problem!"
-msgstr ""
+msgstr "[AdRotate] У рекламодателя проблема!"
 
 #: adrotate-functions.php:1348 adrotate-functions.php:1349
-#, fuzzy
 msgid "requests ad"
-msgstr "Gestion des pubs"
+msgstr "запрос объявления"
 
 #: adrotate-functions.php:1348
-#, fuzzy
 msgid "renewed!"
-msgstr "publicité(s) renouvellée(s)"
+msgstr "продлено!"
 
 #: adrotate-functions.php:1349
-#, fuzzy
 msgid "removed."
-msgstr "Les registres vides de la base de données ont été supprimés"
+msgstr "удалено."
 
 #: adrotate-functions.php:1350
 msgid "has something to say about ad"
-msgstr ""
+msgstr "хочет что то сказать об объявлении"
 
 #: adrotate-functions.php:1351
-#, fuzzy
 msgid "has a problem with AdRotate."
-msgstr "A expiré."
+msgstr "имеет проблему с AdRotate."
 
 #: adrotate-functions.php:1353
 msgid "Attached message:"
-msgstr ""
+msgstr "Сообщение:"
 
 #: adrotate-functions.php:1355
 msgid "You can reply to this message to contact"
@@ -152,75 +148,60 @@ msgid "Review the ad here:"
 msgstr ""
 
 #: adrotate-functions.php:1456 dashboard/publisher/adrotate-media-main.php:72
-#, fuzzy
 msgid "No files found"
-msgstr "Aucun fichier n'a été trouvé"
+msgstr "Файлы не найдены"
 
 #: adrotate-functions.php:1459
-#, fuzzy
 msgid "Folder not found or not accessible"
-msgstr "Le dossier n'a pas été trouvé ou n'est pas accessible"
+msgstr "Папка не найдена или недоступна"
 
 #: adrotate-functions.php:1527
-#, fuzzy
 msgid "Ad saved"
-msgstr ""
-"La publicité a éré sauvegardée mais a un soucis qui pourrait l'empêcher de "
-"fonctionner correctement. Veuillez vérifier la publicité marquée en jaune."
+msgstr "Объявление сохранено"
 
 #: adrotate-functions.php:1531
-#, fuzzy
 msgid "Group saved"
-msgstr "Paramètres sauvegardés"
+msgstr "Группа сохранена"
 
 #: adrotate-functions.php:1535
-#, fuzzy
 msgid "Banner image saved"
-msgstr "Image :"
+msgstr "Изображение баннера сохранено"
 
 #: adrotate-functions.php:1539
-#, fuzzy
 msgid "Ad(s) deleted"
-msgstr "Publicité(s) supprimée(s)"
+msgstr "Объявление(я) удалены"
 
 #: adrotate-functions.php:1543
-#, fuzzy
 msgid "Group deleted"
-msgstr "Groupe supprimé"
+msgstr "Группа удалена"
 
 #: adrotate-functions.php:1547
-#, fuzzy
 msgid "Banner image deleted"
-msgstr "Image :"
+msgstr "Изображение баннера удалено"
 
 #: adrotate-functions.php:1551
-#, fuzzy
 msgid "Something went wrong deleting the file"
-msgstr "Oh no! Un problème est survenu!"
+msgstr "Чтото пошло не так при удалении файла"
 
 #: adrotate-functions.php:1555
-#, fuzzy
 msgid "Ad(s) statistics reset"
-msgstr "Statistiques de la publicité/des publicités ont été mises à zéro"
+msgstr "Статистика объявления(й) сбрасывается"
 
 #: adrotate-functions.php:1559
-#, fuzzy
 msgid "Ad(s) renewed"
-msgstr "publicité(s) renouvellée(s)"
+msgstr "Объявление(я) продляются"
 
 #: adrotate-functions.php:1563
-#, fuzzy
 msgid "Ad(s) deactivated"
-msgstr "Publicité(s) désactivée(s)"
+msgstr "Объявление(я) деактивировано(ы)"
 
 #: adrotate-functions.php:1567
-#, fuzzy
 msgid "Ad(s) activated"
-msgstr "Publicité(s) activée(s)"
+msgstr "Объявление(я) активировано(ы)"
 
 #: adrotate-functions.php:1571 adrotate-functions.php:1612
 msgid "Email(s) with reports successfully sent"
-msgstr ""
+msgstr "Письмо(а) с отчетами отправлено"
 
 #: adrotate-functions.php:1575
 #, fuzzy
@@ -756,9 +737,8 @@ msgid "website"
 msgstr "site"
 
 #: adrotate-output.php:1011
-#, fuzzy
 msgid "AdRotate Notice"
-msgstr "AdRotate Pro"
+msgstr "Примечание AdRotate"
 
 #: adrotate-output.php:1018
 msgid "The overall stats do not take ads from other advertisers into account."
@@ -777,14 +757,12 @@ msgstr ""
 "nécessairement les résultats comptés par d'autres partis."
 
 #: adrotate-output.php:1020
-#, fuzzy
 msgid "Your ads are published with"
-msgstr "Pubs"
+msgstr "Ваши объявления опубликованы с помощью"
 
 #: adrotate-output.php:1020
-#, fuzzy
 msgid "for WordPress. Created by"
-msgstr "Publicité créée"
+msgstr "для  WordPress. Создано"
 
 #: adrotate-statistics.php:226
 #: dashboard/advertiser/adrotate-main-summary.php:82
@@ -960,9 +938,8 @@ msgid "No data to show!"
 msgstr "Aucune donnée à montrer!"
 
 #: adrotate-statistics.php:363 adrotate-statistics.php:364
-#, fuzzy
 msgid "Not found"
-msgstr "Aucun fichier n'a été trouvé"
+msgstr "Не найдено"
 
 #: adrotate-widget.php:117
 msgid "Title (optional):"
@@ -1041,16 +1018,15 @@ msgstr "Расписания"
 
 #: adrotate.php:162
 msgid "Manage Media"
-msgstr "Медиа"
+msgstr "Медиафайлы"
 
 #: adrotate.php:164
 msgid "Moderate"
-msgstr ""
+msgstr "Модерация"
 
 #: adrotate.php:164 adrotate.php:206
-#, fuzzy
 msgid "Moderate Adverts"
-msgstr "Publicités"
+msgstr "Модерация объявлений"
 
 #: adrotate.php:168 adrotate.php:884
 msgid "Settings"
@@ -1061,21 +1037,19 @@ msgstr "Настройки"
 #: dashboard/publisher/adrotate-moderation-queue.php:39
 #: dashboard/publisher/adrotate-moderation-rejected.php:39
 msgid "Advertiser"
-msgstr ""
+msgstr "Рекламодатель"
 
 #: adrotate.php:200
-#, fuzzy
 msgid "AdRotate"
-msgstr "AdRotate Pro"
+msgstr "AdRotate"
 
 #: adrotate.php:201
 msgid "Add new Advert"
 msgstr "Добавить новое объявление"
 
 #: adrotate.php:202
-#, fuzzy
 msgid "Manage Adverts"
-msgstr "Gérer/Ajouter/Modifier les publicités"
+msgstr "Управление объявлениями"
 
 #: adrotate.php:208 adrotate.php:365
 #: dashboard/publisher/adrotate-fullreport.php:13
@@ -1083,9 +1057,8 @@ msgid "Full Report"
 msgstr "Полный отчет"
 
 #: adrotate.php:220
-#, fuzzy
 msgid "License"
-msgstr "Licence Unique"
+msgstr "Лицензия"
 
 #: adrotate.php:251
 msgid "AdRotate Info"
@@ -1133,31 +1106,18 @@ msgstr ""
 "при использовании кликабельных объявлений с несколькими изображениями."
 
 #: adrotate.php:617
-#, fuzzy
 msgid "Moderation queue"
-msgstr ""
-"Mettez en place les annonceurs et laissez-les se connecter à leurs "
-"statistiques ou donnez leur la permission de créez leurs propres publicités. "
-"Les annonces créées iront dans votre file d'attente afin d'être revues par "
-"votre personel. Les annonceurs ont accès à leur propre petit tableau de bord "
-"où ils peuvent voir les performances de leur publicités."
+msgstr "Очередь модерации"
 
 #: adrotate.php:812 dashboard/advertiser/adrotate-edit.php:296
 #: dashboard/advertiser/adrotate-front-end.php:122
 #: dashboard/advertiser/adrotate-report.php:153
-#, fuzzy
 msgid "Notice"
-msgstr ""
-"NOTA BENE : Les options ci-dessous sont destinées à optimiser votre base de "
-"données. Ils ne sont appliqués qu'à vos publicités/groupes et statistiques, "
-"et non pas aux autres parties de Wordpress! Ayez toujours une sauvegarde de "
-"votre site! Ces fonctions seront utilisées quand vous sentez que votre base "
-"de données est lente ou ne réponds pas."
+msgstr "Примечание"
 
 #: adrotate.php:817 dashboard/advertiser/adrotate-front-end.php:127
-#, fuzzy
 msgid "No ads for user."
-msgstr "user-agents"
+msgstr "Нет пользовательских объявлений"
 
 #: adrotate.php:871
 #, fuzzy
@@ -1273,7 +1233,7 @@ msgstr ""
 
 #: adrotate.php:1057
 msgid "Advertiser page"
-msgstr "Страница рекламодателей"
+msgstr "Страница рекламодателя"
 
 #: adrotate.php:1061
 msgid "Role to allow users/advertisers to see their advertisement page."
@@ -1512,7 +1472,7 @@ msgstr "Получение информации о происходящем с A
 
 #: adrotate.php:1235 adrotate.php:1271
 msgid "Publishers"
-msgstr "Издатели"
+msgstr "Владельцы"
 
 #: adrotate.php:1237
 msgid "Daily digest of any advert status other than normal."
@@ -2534,9 +2494,8 @@ msgstr "Новое объявление"
 
 #: dashboard/advertiser/adrotate-edit.php:109
 #: dashboard/publisher/adrotate-ads-edit.php:126
-#, fuzzy
 msgid "Edit Advert"
-msgstr "Modifier la pub"
+msgstr "Изменить объявление"
 
 #: dashboard/advertiser/adrotate-edit.php:111
 #, fuzzy
@@ -2673,9 +2632,8 @@ msgid ""
 msgstr ""
 
 #: dashboard/advertiser/adrotate-edit.php:182
-#, fuzzy
 msgid "GeoLocation"
-msgstr "Géolocalisation"
+msgstr "Геолокация"
 
 #: dashboard/advertiser/adrotate-edit.php:183
 msgid ""
@@ -2689,16 +2647,15 @@ msgstr ""
 
 #: dashboard/advertiser/adrotate-edit.php:189
 msgid "Cities"
-msgstr ""
+msgstr "Города"
 
 #: dashboard/advertiser/adrotate-edit.php:192
-#, fuzzy
 msgid "Usage:"
-msgstr "Usage"
+msgstr "Использование:"
 
 #: dashboard/advertiser/adrotate-edit.php:193
 msgid "A comma separated list of cities"
-msgstr ""
+msgstr "Города, через запятую"
 
 #: dashboard/advertiser/adrotate-edit.php:193
 #: dashboard/publisher/adrotate-ads-edit.php:297
@@ -2709,7 +2666,7 @@ msgstr ""
 
 #: dashboard/advertiser/adrotate-edit.php:197
 msgid "Countries"
-msgstr ""
+msgstr "Страны"
 
 #: dashboard/advertiser/adrotate-edit.php:202
 #: dashboard/publisher/adrotate-ads-edit.php:308
@@ -2720,9 +2677,8 @@ msgstr "Choisir les pages dans lesquelles vous voulez intégrer les pulicités."
 #: dashboard/advertiser/adrotate-edit.php:212
 #: dashboard/advertiser/adrotate-report.php:90
 #: dashboard/publisher/adrotate-ads-edit.php:181
-#, fuzzy
 msgid "Preview"
-msgstr "En avant-première"
+msgstr "Просмотр"
 
 #: dashboard/advertiser/adrotate-edit.php:219
 #: dashboard/advertiser/adrotate-report.php:96
@@ -2805,7 +2761,7 @@ msgstr "Макс. показов"
 
 #: dashboard/advertiser/adrotate-edit.php:245
 msgid "Spread"
-msgstr ""
+msgstr "Увеличение"
 
 #: dashboard/advertiser/adrotate-edit.php:281
 #: dashboard/publisher/adrotate-ads-edit.php:497
@@ -2840,15 +2796,13 @@ msgstr ""
 #: dashboard/publisher/adrotate-moderation-message.php:75
 #: dashboard/publisher/adrotate-schedules-edit.php:144
 #: dashboard/publisher/adrotate-schedules-edit.php:203
-#, fuzzy
 msgid "Cancel"
-msgstr "Annuller"
+msgstr "Отмена"
 
 #: dashboard/advertiser/adrotate-edit.php:301
 #: dashboard/advertiser/adrotate-report.php:158
-#, fuzzy
 msgid "Invalid ad ID."
-msgstr "Ad Unique - Mettre l'identifiant de la publicité"
+msgstr "Неверный ID объявления"
 
 #: dashboard/advertiser/adrotate-edit.php:312
 msgid "Editing and creating adverts is not available right now"
@@ -2865,14 +2819,13 @@ msgstr "Contactez le support si le soucis persiste :"
 
 #: dashboard/advertiser/adrotate-front-end.php:151
 #: dashboard/advertiser/adrotate-main.php:13
-#, fuzzy
 msgid "Your Active Ads"
-msgstr "Pubs Activées"
+msgstr "Ваши активные объявления"
 
 #: dashboard/advertiser/adrotate-front-end.php:152
 #: dashboard/advertiser/adrotate-main.php:14
 msgid "These are active and currently in the pool of ads shown on the website."
-msgstr ""
+msgstr "Активные и показываемые на сайте объявления."
 
 #: dashboard/advertiser/adrotate-front-end.php:158
 #: dashboard/publisher/adrotate-ads-main-disabled.php:36
@@ -2981,9 +2934,8 @@ msgstr "Статистика"
 
 #: dashboard/advertiser/adrotate-front-end.php:203
 #: dashboard/advertiser/adrotate-main.php:66 templates/adrotate-active.php:68
-#, fuzzy
 msgid "Is almost expired."
-msgstr "(presque) expiré"
+msgstr "Почти истекли"
 
 #: dashboard/advertiser/adrotate-front-end.php:203
 #: dashboard/advertiser/adrotate-main.php:67
@@ -2992,9 +2944,8 @@ msgstr "(presque) expiré"
 #: dashboard/publisher/adrotate-schedules-edit.php:198
 #: dashboard/publisher/adrotate-schedules-main.php:80
 #: templates/adrotate-active.php:69
-#, fuzzy
 msgid "Has expired."
-msgstr "A expiré."
+msgstr "Истекл"
 
 #: dashboard/advertiser/adrotate-main-disabled.php:13
 #: dashboard/publisher/adrotate-ads-main-disabled.php:15
@@ -3008,34 +2959,26 @@ msgstr ""
 #: dashboard/advertiser/adrotate-main-disabled.php:24
 #: dashboard/advertiser/adrotate-main-queue.php:21
 #: dashboard/advertiser/adrotate-main.php:28
-#, fuzzy
 msgid "Contact publisher"
-msgstr "Contactez le support si le soucis persiste :"
+msgstr "Связаться с владельцем"
 
 #: dashboard/advertiser/adrotate-main-disabled.php:45
 #: dashboard/advertiser/adrotate-main-queue.php:39
 #: dashboard/advertiser/adrotate-main.php:59
-#, fuzzy
 msgid "Renew"
-msgstr "-- Renouveller --"
+msgstr "Продлить"
 
 #: dashboard/advertiser/adrotate-main-disabled.php:45
 #: dashboard/advertiser/adrotate-main-queue.php:39
 #: dashboard/advertiser/adrotate-main.php:59
-#, fuzzy
 msgid "Remove"
-msgstr ""
-"Activez cette option pour supprimer la marge (espace vide) autour des "
-"publicités dans les widgets. Ceci ne fonctionne pas toujours!"
+msgstr "Удалить"
 
 #: dashboard/advertiser/adrotate-main-disabled.php:45
 #: dashboard/advertiser/adrotate-main-queue.php:39
 #: dashboard/advertiser/adrotate-main.php:59
-#, fuzzy
 msgid "Other"
-msgstr ""
-"Toutes les statistiques sont indicatives. Elles ne reflètent pas "
-"nécessairement les résultats comptés par d'autres partis."
+msgstr "Прочее"
 
 #: dashboard/advertiser/adrotate-main-queue.php:13
 #, fuzzy
@@ -3050,29 +2993,27 @@ msgstr ""
 
 #: dashboard/advertiser/adrotate-main-queue.php:46
 #: templates/adrotate-queued.php:48
-#, fuzzy
 msgid "Has configuration errors."
-msgstr "Erreurs de configuration."
+msgstr "Ошибка настройки."
 
 #: dashboard/advertiser/adrotate-main-queue.php:47
 #: templates/adrotate-queued.php:49
 msgid "Has been rejected."
-msgstr ""
+msgstr "Отклонено."
 
 #: dashboard/advertiser/adrotate-main-summary.php:13
 msgid "Summary"
-msgstr ""
+msgstr "Сводка"
 
 #: dashboard/advertiser/adrotate-main-summary.php:14
 msgid "Overall statistics over active adverts"
-msgstr ""
+msgstr "Сводная статистика более активных объявлений"
 
 #: dashboard/advertiser/adrotate-main-summary.php:32
 #: dashboard/publisher/adrotate-fullreport.php:30
 #: templates/adrotate-summary.php:29
-#, fuzzy
 msgid "General"
-msgstr "Informations générales"
+msgstr "Общее"
 
 #: dashboard/advertiser/adrotate-main-summary.php:33
 #: dashboard/publisher/adrotate-fullreport.php:31
@@ -3084,21 +3025,19 @@ msgstr "W3 Total Caching"
 #: dashboard/advertiser/adrotate-main-summary.php:33
 #: dashboard/publisher/adrotate-fullreport.php:31
 #: templates/adrotate-summary.php:30
-#, fuzzy
 msgid "impressions."
-msgstr "Vues"
+msgstr "показов."
 
 #: dashboard/advertiser/adrotate-main-summary.php:36
 #: templates/adrotate-summary.php:33
-#, fuzzy
 msgid "Most clicks"
-msgstr "Clicks"
+msgstr "Максимум кликов"
 
 #: dashboard/advertiser/adrotate-main-summary.php:37
 #: dashboard/advertiser/adrotate-main-summary.php:41
 #: templates/adrotate-summary.php:34 templates/adrotate-summary.php:38
 msgid "with"
-msgstr ""
+msgstr "с"
 
 #: dashboard/advertiser/adrotate-main-summary.php:37
 #: dashboard/advertiser/adrotate-main-summary.php:41
@@ -3107,9 +3046,8 @@ msgstr ""
 #: dashboard/publisher/adrotate-fullreport.php:39
 #: templates/adrotate-summary.php:34 templates/adrotate-summary.php:38
 #: templates/adrotate-summary.php:42 templates/adrotate-summary.php:46
-#, fuzzy
 msgid "clicks."
-msgstr "Clicks"
+msgstr "кликов."
 
 #: dashboard/advertiser/adrotate-main-summary.php:37
 #: dashboard/advertiser/adrotate-main-summary.php:41
@@ -3120,15 +3058,13 @@ msgstr "Par defaut - Montrer une pub "
 
 #: dashboard/advertiser/adrotate-main-summary.php:40
 #: templates/adrotate-summary.php:37
-#, fuzzy
 msgid "Least clicks"
-msgstr "Clicks"
+msgstr "Минимум кликов"
 
 #: dashboard/advertiser/adrotate-main-summary.php:44
 #: templates/adrotate-summary.php:41
-#, fuzzy
 msgid "Average on all ads"
-msgstr "Re-évaluer toutes les publicités"
+msgstr "В среднем по всем объявлениям"
 
 #: dashboard/advertiser/adrotate-main-summary.php:48
 #: dashboard/publisher/adrotate-fullreport.php:38
@@ -3140,19 +3076,14 @@ msgstr "Activer le suivi des clicks pour cette publicité."
 #: dashboard/advertiser/adrotate-main-summary.php:49
 #: dashboard/publisher/adrotate-fullreport.php:39
 #: templates/adrotate-summary.php:46
-#, fuzzy
 msgid "based on"
-msgstr ""
-"Planifiez vos publicités et mettez en place des campagnes de publicité "
-"basées sur les dates facilement. Vous pouvez utiliser AdRotate pour "
-"planifier des annonces saisonnières, hebdomadaires ou à la carte. "
+msgstr "основано на"
 
 #: dashboard/advertiser/adrotate-main-summary.php:49
 #: dashboard/publisher/adrotate-fullreport.php:39
 #: templates/adrotate-summary.php:46
-#, fuzzy
 msgid "impressions and"
-msgstr "Vues"
+msgstr "показов и"
 
 #: dashboard/advertiser/adrotate-main-summary.php:55
 #: dashboard/advertiser/adrotate-report.php:47
@@ -3160,13 +3091,12 @@ msgstr "Vues"
 #: dashboard/publisher/adrotate-fullreport.php:44
 #: dashboard/publisher/adrotate-groups-report.php:50
 #: templates/adrotate-summary.php:51
-#, fuzzy
 msgid "Monthly overview of clicks and impressions"
-msgstr "Synthèse mensuelle de clics et d'impressions"
+msgstr "Месячный обзор кликов и показов"
 
 #: dashboard/advertiser/adrotate-main-summary.php:70
 msgid "Export options for montly overview"
-msgstr ""
+msgstr "Экспорт месячного обзора кликов и показов"
 
 #: dashboard/advertiser/adrotate-main-summary.php:75
 #: dashboard/advertiser/adrotate-report.php:109
@@ -3174,25 +3104,23 @@ msgstr ""
 #: dashboard/publisher/adrotate-fullreport.php:64
 #: dashboard/publisher/adrotate-groups-report.php:71
 msgid "Select period"
-msgstr ""
+msgstr "Выберите период"
 
 #: dashboard/advertiser/adrotate-main-summary.php:81
 #: dashboard/advertiser/adrotate-report.php:115
 #: dashboard/publisher/adrotate-ads-report.php:71
 #: dashboard/publisher/adrotate-fullreport.php:70
 #: dashboard/publisher/adrotate-groups-report.php:77
-#, fuzzy
 msgid "Whole year"
-msgstr "Pour 1 année"
+msgstr "Весь год"
 
 #: dashboard/advertiser/adrotate-main-summary.php:99
 #: dashboard/advertiser/adrotate-report.php:133
 #: dashboard/publisher/adrotate-ads-report.php:89
 #: dashboard/publisher/adrotate-fullreport.php:88
 #: dashboard/publisher/adrotate-groups-report.php:95
-#, fuzzy
 msgid "Email options"
-msgstr "Options :"
+msgstr "Адреса Email"
 
 #: dashboard/advertiser/adrotate-main-summary.php:101
 #: dashboard/advertiser/adrotate-report.php:135
@@ -3203,6 +3131,7 @@ msgid ""
 "Maximum of 3 email addresses, comma seperated. Leave empty to download the "
 "CSV file instead."
 msgstr ""
+"Максимум 3 адреса, через запятую. Оставьте пустым для загрузки CSV файла."
 
 #: dashboard/advertiser/adrotate-main-summary.php:107
 #: dashboard/advertiser/adrotate-report.php:141
@@ -3210,7 +3139,7 @@ msgstr ""
 #: dashboard/publisher/adrotate-fullreport.php:96
 #: dashboard/publisher/adrotate-groups-report.php:103
 msgid "Export"
-msgstr ""
+msgstr "Экспорт"
 
 #: dashboard/advertiser/adrotate-main-summary.php:107
 #: dashboard/advertiser/adrotate-report.php:141
@@ -3218,147 +3147,138 @@ msgstr ""
 #: dashboard/publisher/adrotate-fullreport.php:96
 #: dashboard/publisher/adrotate-groups-report.php:103
 msgid "Download or email your selected timeframe as a CSV file."
-msgstr ""
+msgstr "Загрузка или отправка на Email выбранного периода в CSV файле."
 
 #: dashboard/advertiser/adrotate-main.php:20
 #: dashboard/publisher/adrotate-moderation-queue.php:36
 #: dashboard/publisher/adrotate-moderation-rejected.php:36
 #: dashboard/server/adrotate-error.php:20
-#, fuzzy
 msgid "Show from"
-msgstr "Montrer de "
+msgstr "Показы с"
 
 #: dashboard/advertiser/adrotate-main.php:21
 #: dashboard/publisher/adrotate-moderation-queue.php:37
 #: dashboard/publisher/adrotate-moderation-rejected.php:37
 #: dashboard/server/adrotate-error.php:21
-#, fuzzy
 msgid "Show until"
-msgstr "Montrer jusqu'à"
+msgstr "Показы до"
 
 #: dashboard/advertiser/adrotate-message.php:13
 #: dashboard/publisher/adrotate-moderation-message.php:13
 msgid "Renewal of"
-msgstr ""
+msgstr "Продление"
 
 #: dashboard/advertiser/adrotate-message.php:14
 #: dashboard/publisher/adrotate-moderation-message.php:14
 msgid "- I'd want my ad renewed for 1 year. Quote me!"
-msgstr ""
+msgstr "- Я бы хотел продлить объявление на 1 год."
 
 #: dashboard/advertiser/adrotate-message.php:14
 #: dashboard/publisher/adrotate-moderation-message.php:14
 msgid "- Renew my ad, but i want the weight set higher."
-msgstr ""
+msgstr "- Продлите мое объявление, но я хочу установить больший вес."
 
 #: dashboard/advertiser/adrotate-message.php:16
 #: dashboard/publisher/adrotate-moderation-message.php:16
 msgid "Removal of"
-msgstr ""
+msgstr "Удаление"
 
 #: dashboard/advertiser/adrotate-message.php:17
 #: dashboard/publisher/adrotate-moderation-message.php:17
 msgid "- This ad doesn't perform, please remove it."
-msgstr ""
+msgstr "- Удалите это объявление."
 
 #: dashboard/advertiser/adrotate-message.php:17
 #: dashboard/publisher/adrotate-moderation-message.php:17
 msgid "- The budget is spent, please remove the ad when it expires."
-msgstr ""
+msgstr "- По истечении бюджета удалите объявление"
 
 #: dashboard/advertiser/adrotate-message.php:19
 #: dashboard/publisher/adrotate-moderation-message.php:19
-#, fuzzy
 msgid "About"
-msgstr "publicité(s) sont sur le point d'expirer"
+msgstr "Прочее/Проблема"
 
 #: dashboard/advertiser/adrotate-message.php:20
 #: dashboard/publisher/adrotate-moderation-message.php:20
 msgid "- The ad is not in the right place. I'd like...."
-msgstr ""
+msgstr "- Объявление в неправильном месте. Я бы хотел..."
 
 #: dashboard/advertiser/adrotate-message.php:20
 #: dashboard/publisher/adrotate-moderation-message.php:20
 msgid "- This ad works great for me!!"
-msgstr ""
+msgstr "- Объявление работает отлично! :)"
 
 #: dashboard/advertiser/adrotate-message.php:22
 #: dashboard/publisher/adrotate-moderation-message.php:22
 msgid "Complaint or problem"
-msgstr ""
+msgstr "Опишите проблемы"
 
 #: dashboard/advertiser/adrotate-message.php:23
 #: dashboard/publisher/adrotate-moderation-message.php:23
 msgid "- My ads do not show, what's going on?"
-msgstr ""
+msgstr "- Мое объявление не отображается, что делать?"
 
 #: dashboard/advertiser/adrotate-message.php:23
 #: dashboard/publisher/adrotate-moderation-message.php:23
 msgid "- Why can't i see any clicks?"
-msgstr ""
+msgstr "- Почему я не вижу клики?"
 
 #: dashboard/advertiser/adrotate-message.php:31
 #: dashboard/publisher/adrotate-moderation-message.php:31
 msgid "No address specified"
-msgstr ""
+msgstr "Не указан адрес"
 
 #: dashboard/advertiser/adrotate-message.php:41
-#, fuzzy
 msgid "Contact your Publisher"
-msgstr "Contactez le support si le soucis persiste :"
+msgstr "Связь с владельцем"
 
 #: dashboard/advertiser/adrotate-message.php:42
 #: dashboard/publisher/adrotate-moderation-message.php:46
 msgid "Put in a request for renewal, removal or report an issue with this ad."
-msgstr ""
+msgstr "Напишите просьбу о продлении, удалении или опишите проблему."
 
 #: dashboard/advertiser/adrotate-message.php:46
 #: dashboard/publisher/adrotate-moderation-message.php:51
 msgid "Subject"
-msgstr ""
+msgstr "Тема"
 
 #: dashboard/advertiser/adrotate-message.php:52
 #: dashboard/publisher/adrotate-moderation-message.php:57
-#, fuzzy
 msgid "ad"
-msgstr "Gestion des pubs"
+msgstr "объявления"
 
 #: dashboard/advertiser/adrotate-message.php:58
 #: dashboard/publisher/adrotate-moderation-message.php:63
 msgid "Short message/Reason"
-msgstr ""
+msgstr "Сообщение"
 
 #: dashboard/advertiser/adrotate-message.php:61
 #: dashboard/publisher/adrotate-moderation-message.php:66
-#, fuzzy
 msgid "Examples:"
-msgstr "Exemples de base :"
+msgstr "Примеры:"
 
 #: dashboard/advertiser/adrotate-message.php:69
 #: dashboard/publisher/adrotate-moderation-message.php:74
 msgid "Send"
-msgstr ""
+msgstr "Отправить"
 
 #: dashboard/advertiser/adrotate-report.php:34
-#, fuzzy
 msgid "Statistics for"
-msgstr "Statistiques"
+msgstr "Статистика для"
 
 #: dashboard/advertiser/adrotate-report.php:40
 #: dashboard/publisher/adrotate-ads-report.php:36
 #: dashboard/publisher/adrotate-groups-report.php:42
 #: templates/adrotate-active.php:56
-#, fuzzy
 msgid "Impressions today"
-msgstr "Vues aujourd'hui"
+msgstr "Показов сегодня"
 
 #: dashboard/advertiser/adrotate-report.php:41
 #: dashboard/publisher/adrotate-ads-report.php:37
 #: dashboard/publisher/adrotate-groups-report.php:43
 #: templates/adrotate-active.php:57
-#, fuzzy
 msgid "Clicks today"
-msgstr "Clicks aujourd'hui"
+msgstr "Кликов сегодня"
 
 #: dashboard/advertiser/adrotate-report.php:59
 #, fuzzy
@@ -3366,28 +3286,24 @@ msgid "Periodic overview of clicks and impressions"
 msgstr "Synthèse mensuelle de clics et d'impressions"
 
 #: dashboard/advertiser/adrotate-report.php:63
-#, fuzzy
 msgid "Shown from"
-msgstr "Montré"
+msgstr "Показы с"
 
 #: dashboard/advertiser/adrotate-report.php:64
-#, fuzzy
 msgid "Shown until"
-msgstr "Montré"
+msgstr "Показы до"
 
 #: dashboard/advertiser/adrotate-report.php:65
 #: dashboard/advertiser/adrotate-report.php:66
-#, fuzzy
 msgid "Used"
-msgstr "Oui, cette publicité sera utilisée"
+msgstr "Использовано"
 
 #: dashboard/advertiser/adrotate-report.php:105
 #: dashboard/publisher/adrotate-ads-report.php:60
 #: dashboard/publisher/adrotate-fullreport.php:59
 #: dashboard/publisher/adrotate-groups-report.php:66
-#, fuzzy
 msgid "Export options"
-msgstr "Options :"
+msgstr "Экспорт"
 
 #: dashboard/advertiser/adrotate-report.php:148
 #: dashboard/publisher/adrotate-ads-edit.php:454
@@ -3396,14 +3312,12 @@ msgstr "Options :"
 #: dashboard/publisher/adrotate-groups-report.php:110
 #: dashboard/publisher/adrotate-schedules-edit.php:136
 #: dashboard/publisher/adrotate-schedules-edit.php:139
-#, fuzzy
 msgid "Note:"
-msgstr "Note :"
+msgstr "Примечание:"
 
 #: dashboard/publisher/adrotate-ads-edit.php:53
-#, fuzzy
 msgid "The AdCode cannot be empty!"
-msgstr "Le code de la publicité ne peut être vide!"
+msgstr "Код не может быть пустым!"
 
 #: dashboard/publisher/adrotate-ads-edit.php:56
 msgid "You've set an advertiser but didn't enable clicktracking!"
@@ -3631,16 +3545,15 @@ msgstr "Choisir l'image"
 
 #: dashboard/publisher/adrotate-ads-edit.php:248
 msgid "- OR -"
-msgstr ""
+msgstr "- ИЛИ -"
 
 #: dashboard/publisher/adrotate-ads-edit.php:250
 msgid "Banner folder:"
 msgstr "Папка с баннерами:"
 
 #: dashboard/publisher/adrotate-ads-edit.php:251
-#, fuzzy
 msgid "No image selected"
-msgstr "Aucune image sélectionnée"
+msgstr "Изображение не выбрано"
 
 #: dashboard/publisher/adrotate-ads-edit.php:255
 #, fuzzy
@@ -3657,15 +3570,13 @@ msgstr ""
 "valeur, ce champ a la priorité."
 
 #: dashboard/publisher/adrotate-ads-edit.php:259
-#, fuzzy
 msgid "Weight:"
-msgstr "Importance"
+msgstr "Вес:"
 
 #: dashboard/publisher/adrotate-ads-edit.php:271
 #: dashboard/publisher/adrotate-groups-edit.php:220
-#, fuzzy
 msgid "Sortorder:"
-msgstr "Ordre de tri :"
+msgstr "Порядок отображения:"
 
 #: dashboard/publisher/adrotate-ads-edit.php:273
 #: dashboard/publisher/adrotate-groups-edit.php:222
@@ -3681,9 +3592,8 @@ msgstr ""
 "de l'ID de la publicité."
 
 #: dashboard/publisher/adrotate-ads-edit.php:288
-#, fuzzy
 msgid "Geo Location"
-msgstr "Ciblez votre audience avec la géolocation dans AdRotate Pro"
+msgstr "Геолокация"
 
 #: dashboard/publisher/adrotate-ads-edit.php:289
 msgid ""
@@ -3693,7 +3603,7 @@ msgstr ""
 
 #: dashboard/publisher/adrotate-ads-edit.php:294
 msgid "Cities/States:"
-msgstr ""
+msgstr "Города:"
 
 #: dashboard/publisher/adrotate-ads-edit.php:297
 msgid ""
@@ -3703,7 +3613,7 @@ msgstr ""
 
 #: dashboard/publisher/adrotate-ads-edit.php:301
 msgid "Countries:"
-msgstr ""
+msgstr "Страны:"
 
 #: dashboard/publisher/adrotate-ads-edit.php:308
 msgid "Cities take priority and will be filtered first."
@@ -4217,7 +4127,7 @@ msgstr ""
 
 #: dashboard/publisher/adrotate-groups-edit.php:209
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 #: dashboard/publisher/adrotate-groups-edit.php:217
 msgid ""
@@ -4497,28 +4407,24 @@ msgid "Available banner images in"
 msgstr "Доступные баннеры в папке"
 
 #: dashboard/publisher/adrotate-media-main.php:36
-#, fuzzy
 msgid "Actions"
-msgstr "Actions en vrac"
+msgstr "Действия"
 
 #: dashboard/publisher/adrotate-media-main.php:67
-#, fuzzy
 msgid "Delete file"
-msgstr "Effacer"
+msgstr "Удалить файл"
 
 #: dashboard/publisher/adrotate-media-main.php:67
-#, fuzzy
 msgid "Are you sure you want to delete this file?"
-msgstr "Etes-vous certains de vouloir continuer?"
+msgstr "Вы хотите удалить этот файл?"
 
 #: dashboard/publisher/adrotate-media-main.php:67
 msgid "Make sure no adverts still use this image!"
 msgstr ""
 
 #: dashboard/publisher/adrotate-media-main.php:75
-#, fuzzy
 msgid "Banners folder not found or not accessible"
-msgstr "Le dossier n'a pas été trouvé ou n'est pas accessible"
+msgstr "Папка баннеров не найдена или нет доступа"
 
 #: dashboard/publisher/adrotate-media-main.php:81
 msgid ""
@@ -4539,47 +4445,36 @@ msgstr "Réexaminer les annonceurs! Visible pour les annonceurs."
 #: dashboard/publisher/adrotate-moderation-queue.php:21
 #: dashboard/publisher/adrotate-moderation-rejected.php:22
 msgid "Approve"
-msgstr ""
+msgstr "Одобрить"
 
 #: dashboard/publisher/adrotate-moderation-queue.php:22
 msgid "Reject"
-msgstr ""
+msgstr "Отклонить"
 
 #: dashboard/publisher/adrotate-moderation-queue.php:92
 #: dashboard/publisher/adrotate-moderation-rejected.php:102
-#, fuzzy
 msgid "No ads in queue yet!"
-msgstr "Aucune pub n'a encore été créé!"
+msgstr "В очереди нет объявлений!"
 
 #: dashboard/publisher/adrotate-moderation-rejected.php:12
-#, fuzzy
 msgid "Rejected adverts"
-msgstr "Publicités"
+msgstr "Отклоненные объявления"
 
 #: dashboard/publisher/adrotate-moderation-rejected.php:21
-#, fuzzy
 msgid "Queue"
-msgstr ""
-"Mettez en place les annonceurs et laissez-les se connecter à leurs "
-"statistiques ou donnez leur la permission de créez leurs propres publicités. "
-"Les annonces créées iront dans votre file d'attente afin d'être revues par "
-"votre personel. Les annonceurs ont accès à leur propre petit tableau de bord "
-"où ils peuvent voir les performances de leur publicités."
+msgstr "Очередь"
 
 #: dashboard/publisher/adrotate-schedules-edit.php:13
-#, fuzzy
 msgid "New Schedule"
-msgstr "Planning"
+msgstr "Новое расписание"
 
 #: dashboard/publisher/adrotate-schedules-edit.php:22
-#, fuzzy
 msgid "Edit Schedule"
-msgstr "Planning"
+msgstr "Изменить расписание"
 
 #: dashboard/publisher/adrotate-schedules-edit.php:56
-#, fuzzy
 msgid "Will be visible to Advertisers."
-msgstr "Réexaminer les annonceurs! Visible pour les annonceurs."
+msgstr "Будет видимо для рекламодателя."
 
 #: dashboard/publisher/adrotate-schedules-edit.php:136
 msgid ""
@@ -4607,12 +4502,11 @@ msgstr "без ограничений"
 
 #: dashboard/publisher/adrotate-schedules-main.php:65
 msgid "Spread:"
-msgstr ""
+msgstr "Увеличение:"
 
 #: dashboard/publisher/adrotate-schedules-main.php:65
-#, fuzzy
 msgid "impressions per day"
-msgstr "Vues"
+msgstr "показов в день"
 
 #: dashboard/publisher/adrotate-schedules-main.php:73
 #, fuzzy
@@ -4634,9 +4528,8 @@ msgstr ""
 "servies par AdRotate server."
 
 #: dashboard/server/adrotate-active.php:19
-#, fuzzy
 msgid "Added / Updated"
-msgstr "Ajouté / Mis à jour"
+msgstr "Добавлено / Обновлено"
 
 #: dashboard/server/adrotate-active.php:74
 #: dashboard/server/adrotate-error.php:76
@@ -4655,9 +4548,8 @@ msgid "Adverts served from AdRotate server but having some issues."
 msgstr "Publicités provenant du serveur AdRotate mais qui ont des soucis."
 
 #: dashboard/server/adrotate-error.php:19
-#, fuzzy
 msgid "Updated"
-msgstr "Mis à jour"
+msgstr "Обновлено"
 
 #: dashboard/server/adrotate-settings.php:15
 #, fuzzy
@@ -4674,9 +4566,8 @@ msgstr ""
 "statistiques soient synchronisées regulièrement."
 
 #: dashboard/server/adrotate-settings.php:24
-#, fuzzy
 msgid "Status"
-msgstr "Statut"
+msgstr "Состояние"
 
 #: dashboard/server/adrotate-settings.php:27
 #, fuzzy
@@ -4689,9 +4580,8 @@ msgid "Not linked - No adverts will be synced."
 msgstr "Lié - Les publicités peuvent être synchronisées"
 
 #: dashboard/server/adrotate-settings.php:40
-#, fuzzy
 msgid "Server Key"
-msgstr "Clé Serveur"
+msgstr "Ключ сервера"
 
 #: dashboard/server/adrotate-settings.php:41
 #, fuzzy
@@ -4772,9 +4662,8 @@ msgid "An Unexpected HTTP Error occurred during the Support API request.</p>"
 msgstr ""
 
 #: templates/adrotate-active.php:27
-#, fuzzy
 msgid "ID - Title"
-msgstr "Titre :"
+msgstr "ID - Название"
 
 #: templates/adrotate-active.php:28
 msgid "Visible from"
