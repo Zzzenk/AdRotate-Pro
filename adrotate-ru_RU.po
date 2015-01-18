@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: AdRotate Pro\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-15 01:12+0100\n"
-"PO-Revision-Date: 2015-01-18 19:59+0300\n"
+"PO-Revision-Date: 2015-01-19 00:31+0300\n"
 "Last-Translator: Arnan de Gans <info@ajdg.net>\n"
 "Language-Team: Zenk <zenk@list.ru>\n"
 "Language: ru_RU\n"
@@ -515,14 +515,12 @@ msgid "Error, group does not exist! Check your syntax!"
 msgstr "Erreur, le groupe n'existe pas! Vérifiez votre syntaxe!"
 
 #: adrotate-output.php:848
-#, fuzzy
 msgid ""
 "There was an error locating the database tables for AdRotate. Please "
 "deactivate and re-activate AdRotate from the plugin page!!"
 msgstr ""
-"AdRotate ne peut pas trouver la table de la base de données dont elle a "
-"besoin. Veuillez désactiver et ré-activer AdRotate de la page des "
-"extensions. "
+"При определении местоположения таблиц БД AdRotate возникла ошибка. "
+"Деактивируйте и активируйте плагин заново!"
 
 #: adrotate-output.php:848
 msgid "If this does not solve the issue please seek support at"
@@ -700,6 +698,7 @@ msgstr "Примечание AdRotate"
 #: adrotate-output.php:1018
 msgid "The overall stats do not take ads from other advertisers into account."
 msgstr ""
+"Полная статистика не принимает во внимание объявления других рекламодателей."
 
 #: adrotate-output.php:1019 dashboard/advertiser/adrotate-report.php:148
 #: dashboard/publisher/adrotate-ads-report.php:104
@@ -1317,6 +1316,8 @@ msgid ""
 "This role has no capabilities unless you assign them using the above "
 "options. Obviously you should use this with care."
 msgstr ""
+"У этой роли нет возможностей, пока вы не присвоите ей каких либо "
+"возможностей из списка выше. Используйте эту функцию с осторожностью."
 
 #: adrotate.php:1181
 msgid ""
@@ -1599,13 +1600,12 @@ msgstr ""
 "показов и кликов для роботов."
 
 #: adrotate.php:1334
-#, fuzzy
 msgid ""
 "Keep in mind that this might give false positives. The word 'google' also "
 "matches 'googlebot', but not vice-versa. So be careful!"
 msgstr ""
-"Gardez à l'esprit que cela peut donner des faux positifs. Le mot «Google» "
-"correspond également à «Googlebot», mais pas vice-versa. Soyez donc prudents!"
+"Слово 'google' также будет соответстовать 'googlebot', но не наоборот. "
+"Будьте внимательны!"
 
 #: adrotate.php:1334
 msgid "Keep your list up-to-date"
@@ -1988,13 +1988,12 @@ msgid "Delete stats older than 356 days (Optional)."
 msgstr "Удалять статистику старше 356 дней (по желанию)"
 
 #: adrotate.php:1527
-#, fuzzy
 msgid ""
 "AdRotate creates empty records when you start making ads, groups or "
 "schedules. In rare occasions these records are faulty."
 msgstr ""
-"AdRotate crée des registres vides lorsque vous commencez à faire des "
-"annonces ou des groupes. Dans de rares cas, ces registres sont défectueux."
+"AdRotate создает в БД пустые записи когда вы создаете объявления, группы или "
+"расписания. Иногда эти записи бывают некорректными."
 
 #: adrotate.php:1527
 #, fuzzy
@@ -2038,7 +2037,6 @@ msgstr ""
 "fonctionalité."
 
 #: adrotate.php:1538
-#, fuzzy
 msgid ""
 "DISCLAIMER: If for any reason your data is lost, damaged or otherwise "
 "becomes unusable in any way or by any means in whichever way I will not take "
@@ -2047,13 +2045,6 @@ msgid ""
 "database likely was beyond repair already. Claiming it worked before "
 "clicking these buttons is not a valid point in any case."
 msgstr ""
-"AVERTISSEMENT: Si pour une raison quelconque, vos données sont perdues, "
-"endommagées ou autrement deviennent inutilisables je ne vais pas en prendre "
-"la responsabilité. Vous devriez toujours avoir une sauvegarde de votre base "
-"de données. Ces fonctions ne détruisent pas les données. Si les données sont "
-"perdues, endommagées ou inutilisables, votre base de données était "
-"probablement déjà au-delà de la réparation. Affirmer que le site "
-"fonctionnait avant de cliquer sur ces boutons n'est pas un argument valable."
 
 #: adrotate.php:1546
 msgid "Troubleshooting"
@@ -2112,18 +2103,12 @@ msgid "Unknown Status"
 msgstr "Неизвестное состояние"
 
 #: adrotate.php:1569
-#, fuzzy
 msgid ""
 "NOTE: The below options are not meant for normal use and are only there for "
 "developers to review saved settings or how ads are selected. These can be "
 "used as a measure of troubleshooting upon request but for normal use they "
 "SHOULD BE LEFT UNCHECKED!!"
 msgstr ""
-"NOTA BENE : Les options ci-dessous ne sont pas destinées à une utilisation "
-"normale, et ne sont là que pour que les développeurs puissent examiner les "
-"paramètres ou voir comment les publicités sont sélectionnées. Ceux-ci "
-"peuvent être utilisés comme une mesure de dépannage sur demande, mais pour "
-"une utilisation normale, ils ne doivent pas être activés!"
 
 #: adrotate.php:1572
 msgid "Developer Debug"
@@ -2134,16 +2119,12 @@ msgid "Troubleshoot ads and how (if) they are selected, has front-end output."
 msgstr ""
 
 #: adrotate.php:1575
-#, fuzzy
 msgid "Show all settings, dashboard routines and related values."
-msgstr ""
-"Afficher tous les paramétres, les widgets du tableau de bord et les valeurs "
-"connexes."
+msgstr "Показать все настройки, консоли и связанные значения."
 
 #: adrotate.php:1576
-#, fuzzy
 msgid "Show array of all userroles and capabilities."
-msgstr "Voir les données de tous les rôles d'utilisateurs et leur capacités."
+msgstr "Показать массив всех пользовательских ролей и возможностей."
 
 #: adrotate.php:1577
 #, fuzzy
@@ -2173,9 +2154,8 @@ msgstr ""
 "fenêtre d'alerte pour le suivi des clicks."
 
 #: adrotate.php:1581
-#, fuzzy
 msgid "Temporarily disable encryption on the redirect url."
-msgstr "Désactiver temporairement le chiffrement sur l'url de redirection."
+msgstr "Временно отключить шифрование на перенаправлении URL."
 
 #: adrotate.php:1610
 msgid "AdRotate Network License"
@@ -2970,9 +2950,8 @@ msgstr "кликов."
 #: dashboard/advertiser/adrotate-main-summary.php:37
 #: dashboard/advertiser/adrotate-main-summary.php:41
 #: templates/adrotate-summary.php:34 templates/adrotate-summary.php:38
-#, fuzzy
 msgid "No ad stands out at this time."
-msgstr "Par defaut - Montrer une pub "
+msgstr "В данный  момент нет остановленных объявлений."
 
 #: dashboard/advertiser/adrotate-main-summary.php:40
 #: templates/adrotate-summary.php:37
@@ -3241,14 +3220,12 @@ msgid "You've set an advertiser but didn't enable clicktracking!"
 msgstr "Вы выбрали рекламодателя, но не включили отслеживание кликов!"
 
 #: dashboard/publisher/adrotate-ads-edit.php:65
-#, fuzzy
 msgid ""
 "There is a problem saving the image specification. Please reset your image "
 "and re-save the ad!"
 msgstr ""
-"Il y a un problème au niveau de la sauvergarde des spécifications de "
-"l'image. Merci de bien vouloir réinitialiser votre image et réenregistrer la "
-"publicité!"
+"Существует проблема с сохранением описания изображения. Сбросьте изображение "
+"и пересохраните объявление!"
 
 #: dashboard/publisher/adrotate-ads-edit.php:68
 msgid ""
@@ -3265,13 +3242,12 @@ msgid "A Click rate was set but clicktracking is not active!"
 msgstr ""
 
 #: dashboard/publisher/adrotate-ads-edit.php:82
-#, fuzzy
 msgid ""
 "AdRotate cannot find an error but the ad is marked erroneous, try re-saving "
 "the ad!"
 msgstr ""
-"AdRotate ne peut pas trouver une erreur, mais l'annonce est marquée erronée, "
-"essayez d'enregistrer votre publicité à nouveau!"
+"AdRotate не нашел ошибок, но данное объявление все равно отмечено как с "
+"ошибками, попробуйте пересохранить объявление!"
 
 #: dashboard/publisher/adrotate-ads-edit.php:91
 msgid "This ad is expired and currently not shown on your website!"
@@ -4178,11 +4154,8 @@ msgid "Code"
 msgstr "Код"
 
 #: dashboard/publisher/adrotate-groups-main.php:63
-#, fuzzy
 msgid "Fallback"
-msgstr ""
-"Mettre en place un groupe de secours, et utiliser la localisation "
-"géographique dans AdRotate Pro"
+msgstr "Отказ"
 
 #: dashboard/publisher/adrotate-groups-main.php:84
 msgid "No groups created!"
