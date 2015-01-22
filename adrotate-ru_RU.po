@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: AdRotate Pro\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-15 01:12+0100\n"
-"PO-Revision-Date: 2015-01-19 00:31+0300\n"
+"PO-Revision-Date: 2015-01-22 18:53+0300\n"
 "Last-Translator: Arnan de Gans <info@ajdg.net>\n"
 "Language-Team: Zenk <zenk@list.ru>\n"
 "Language: ru_RU\n"
@@ -370,7 +370,7 @@ msgstr "Неверный ключ лицензии. Если это не так 
 
 #: adrotate-functions.php:1736
 msgid "The purchase matching this product is not complete. Contact support."
-msgstr ""
+msgstr "Покупка продукта не завершена. Обратитесь в поддержку."
 
 #: adrotate-functions.php:1740
 msgid ""
@@ -464,11 +464,12 @@ msgstr ""
 "браузера."
 
 #: adrotate-output.php:795
-#, fuzzy
 msgid ""
 "If you have received the url you want to visit via email, you are being "
 "tricked!"
-msgstr "Si vous avez reçu ce lien par email, vous avez été dupés!"
+msgstr ""
+"Если вы получили Email с ссылкой, по которой нужно перейти - это может быть "
+"мошенничеством"
 
 #: adrotate-output.php:796
 msgid "Contact support if the issue persists:"
@@ -479,7 +480,7 @@ msgid ""
 "Error, Ad is not available at this time due to schedule/budgeting/"
 "geolocation restrictions or does not exist!"
 msgstr ""
-"Ошибка! Объявление не отображается в данный момент из-за ограничений "
+"Ошибка: объявление не отображается в данный момент из-за ограничений "
 "расписания/бюджета/геолокации или не существует!"
 
 #: adrotate-output.php:816
@@ -487,32 +488,28 @@ msgid ""
 "Error, Ad is not available at this time due to schedule/budgeting/"
 "geolocation restrictions!"
 msgstr ""
-"Ошибка! Объявление не отображается в данный момент из-за ограничений "
+"Ошибка: объявление не отображается в данный момент из-за ограничений "
 "расписания/бюджета/геолокации!"
 
 #: adrotate-output.php:823 adrotate-output.php:825
-#, fuzzy
 msgid ""
 "Either there are no banners, they are disabled or none qualified for this "
 "location!"
 msgstr ""
-"Soit il n'y a pas de bannières, ils sont desactivées ou pas qualifiées pour "
-"cet endroit!"
+"Баннеры отсутствуют из за того что они отключены или не предоставляются для "
+"данного местоположения!"
 
 #: adrotate-output.php:831
-#, fuzzy
 msgid "Error, no Ad ID set! Check your syntax!"
-msgstr "Erreur, aucun identifiant de pub n'a été mis! Vérifiez votre syntaxe."
+msgstr "Ошибка: не установлен ID объявления!"
 
 #: adrotate-output.php:837
-#, fuzzy
 msgid "Error, no group ID set! Check your syntax!"
-msgstr "Erreur: aucun ID de groupe n'est mis en place! Vérifiez votre syntaxe!"
+msgstr "Ошибка: не установлен ID группы!"
 
 #: adrotate-output.php:842
-#, fuzzy
 msgid "Error, group does not exist! Check your syntax!"
-msgstr "Erreur, le groupe n'existe pas! Vérifiez votre syntaxe!"
+msgstr "Ошибка: группа не существует!"
 
 #: adrotate-output.php:848
 msgid ""
@@ -656,6 +653,9 @@ msgid ""
 "A lot of users only think to review AdRotate when something goes wrong while "
 "thousands of people use AdRotate satisfactory. Don't let this go unnoticed."
 msgstr ""
+"Многие пользователи обращают внимание на AdRotate только если что-то пошло "
+"не так в то время, как тысячи людей используют AdRotate и остаются "
+"удовлетворенными. Не оставляйте это без внимания."
 
 #: adrotate-output.php:986
 msgid "If you find AdRotate useful please leave your honest"
@@ -675,13 +675,12 @@ msgstr ""
 "на WordPress.org для того, чтобы помочь AdRotate развиваться в лучшую сторону"
 
 #: adrotate-output.php:989
-#, fuzzy
 msgid ""
 "Your one stop for Webdevelopment, consultancy and anything WordPress! Find "
 "out more about what I can do for you!"
 msgstr ""
-"Votre guichet unique pour le développement Web, le consulting et toutes les "
-"façettes de Wordpress! Découvrez plus sur ce que je peux faire pour vous!"
+"Ваша одна остановка в веб разработке, консультировании и всем остальном в "
+"WordPress! Узнайте больше о том, что я могу для вас сделать!"
 
 #: adrotate-output.php:989
 msgid "Visit the"
@@ -704,13 +703,12 @@ msgstr ""
 #: dashboard/publisher/adrotate-ads-report.php:104
 #: dashboard/publisher/adrotate-fullreport.php:103
 #: dashboard/publisher/adrotate-groups-report.php:110
-#, fuzzy
 msgid ""
 "All statistics are indicative. They do not nessesarily reflect results "
 "counted by other parties."
 msgstr ""
-"Toutes les statistiques sont indicatives. Elles ne reflètent pas "
-"nécessairement les résultats comptés par d'autres partis."
+"Вся статистика показательна. Они не всегда отражают результаты подсчетов "
+"других сторон."
 
 #: adrotate-output.php:1020
 msgid "Your ads are published with"
@@ -909,11 +907,8 @@ msgid "Description (optional):"
 msgstr "Описание (не обязательно):"
 
 #: adrotate-widget.php:126
-#, fuzzy
 msgid "What is this widget used for? (Not parsed, HTML will be stripped out.)"
-msgstr ""
-"Quelle est l'utilisation de ce widget? (Non executé, le code HTML sera "
-"dépouillé.)"
+msgstr "Для чего этот виджет? (Не анализируется, HTML будет вырезан.)"
 
 #: adrotate-widget.php:129
 msgid "Type:"
@@ -1070,13 +1065,10 @@ msgid "AdRotate Server"
 msgstr "Сервер AdRotate"
 
 #: adrotate.php:879
-#, fuzzy
 msgid ""
 "AdRotate server is currently in development and these menus are not "
 "functional yet."
-msgstr ""
-"AdRotate Server est actuellement en développement et ces menus ne sont pas "
-"encore fonctionels."
+msgstr "Сервер AdRotate все еще в разработке и это меню еще не работает."
 
 #: adrotate.php:883
 msgid "Overview"
@@ -1809,17 +1801,17 @@ msgid "NOTICE:"
 msgstr "ПРИМЕЧАНИЕ:"
 
 #: adrotate.php:1464
-#, fuzzy
 msgid ""
 "You have enabled W3 Total Caching support but not defined the security hash. "
 "You need to add the following line to your wp-config.php near the bottom or "
 "below line 52 (which defines another hash.) Using the \"late init\" function "
 "needs to be enabled in W3 Total Cache as well too."
 msgstr ""
-"Vous avez activé le support de W3 Total Caching, mais vous n'avez pas defini "
-"le hash de sécurité. Vous devez ajouter la ligne suivante à votre fichier wp-"
-"config.php après la ligne 52 (qui définit un autre hash). De plus, la "
-"fonction \"late init\" doit être activée dans W3 Total Cache."
+"Вы активировали поддержку W3 Total Caching но хэш безопасности не был "
+"определен. Необходимо добавить следующие строки в wp-config.php примерно в "
+"конец файла или ниже строки 52 (которая содержит другой хэш). Для "
+"использование функции \"late init\" она должна быть так же включена в W3 "
+"Total Cache."
 
 #: adrotate.php:1468
 msgid "W3 Total Caching"
@@ -1830,15 +1822,14 @@ msgid "Check this box if you use W3 Total Caching on your site."
 msgstr "Отметьте, если вы используете на сайте W3 Total Caching."
 
 #: adrotate.php:1475
-#, fuzzy
 msgid ""
 "You have enabled WP Super Cache support. If you have version 1.4 or newer, "
 "this function will not work. WP Super Cache has discontinued support for "
 "dynamic content."
 msgstr ""
-"Vous avez activé le support de WP Super Cache. Si vous avez la version 1.4 "
-"ou plus récent, cette fonction ne marchera pas. WP Super Cache a arrêté le "
-"support pour le contenu dynamique."
+"Вы активировали поддержку WP Super Cache support. Если у вас версия 1.4 или "
+"новее, эта функция не будет работать. WP Super Cache прекратила поддержку "
+"динамического контента."
 
 #: adrotate.php:1479
 msgid "WP Super Cache"
@@ -1849,25 +1840,22 @@ msgid "Check this box if you use WP Super Cache on your site."
 msgstr "Отметьте, если вы используете на сайте WP Super Cache."
 
 #: adrotate.php:1485
-#, fuzzy
 msgid ""
 "It may take a while for the ad to start rotating. The caching plugin needs "
 "to refresh the cache. This can take up to a week if not done manually."
 msgstr ""
-"Un certain délai est possible avant que les publicités ne commencent à "
-"tourner correctement sur votre site. Le plugin de mise en cache doit "
-"actualiser son contenu. Cela peut prendre jusqu'à une semaine si ce n'est "
-"pas fait manuellement."
+"Ротация объявлений может занять некоторое время. Плагину кэширования "
+"необходимо обновить кэш. Это может занять до недели если не сделать это "
+"вручную."
 
 #: adrotate.php:1485
-#, fuzzy
 msgid ""
 "Caching support only works for [shortcodes] and the AdRotate Widget. If you "
 "use a PHP Snippet you need to wrap your PHP in the exclusion code yourself."
 msgstr ""
-"Le support de la mise en cache ne fonctionne qu'avec le shortcode ou le "
-"widget Adrotate. Si vous utilisez du code PHP, vous devez envelopper votre "
-"PHP dans le code d'exclusion vous-même."
+"Поддержка кэширования работает только для [shortcodes] и виджета AdRotate. "
+"Если вы используете PHP Snippet вам нужно обернуть свой PHP код в "
+"существующий код самостоятельно."
 
 #: adrotate.php:1489
 msgid "Javascript Libraries"
@@ -1878,13 +1866,12 @@ msgid "Load jQuery"
 msgstr "Загрузка jQuery"
 
 #: adrotate.php:1493
-#, fuzzy
 msgid ""
 "jQuery is required for all Javascript features below. Enable this if your "
 "theme does not load jQuery already."
 msgstr ""
-"jQuery est requis pour toutes les fonctions Javascript ci-dessous. Activez-"
-"le si votre thème ne charge pas jQuery directement."
+"jQuery необходим для всех функций Javascript ниже. Включите это если ваша "
+"тема уже не загрузила jQuery."
 
 #: adrotate.php:1496
 msgid "Load Ad Blocker Detection"
@@ -1897,25 +1884,22 @@ msgstr ""
 "полльзователям."
 
 #: adrotate.php:1501
-#, fuzzy
 msgid "Load in footer?"
-msgstr "Chargement dans le pied de page?"
+msgstr "Загрузить в footer?"
 
 #: adrotate.php:1502
-#, fuzzy
 msgid ""
 "Enable if you want to load the above libraries in the footer. Your theme "
 "needs to call wp_footer() for this to work."
 msgstr ""
-"Activez cette option si vous voulez charger les bibliothèques dans le pied "
-"de page. Votre thème doit appeler wp_footer() pour que cela fonctionne."
+"Включите, если вы хотите, чтобы вышеуказанные библиотеки загружались в "
+"footer. Ваша тема должна вызывать wp_footer() для работы этой функции."
 
 #: adrotate.php:1510
 msgid "Maintenance"
 msgstr "Обслуживание"
 
 #: adrotate.php:1511
-#, fuzzy
 msgid ""
 "NOTE: The below functions are intented to be used to OPTIMIZE your database. "
 "They only apply to your ads/groups and stats. Not to other settings or other "
@@ -1923,11 +1907,10 @@ msgid ""
 "used when you feel or notice your database is slow, unresponsive and "
 "sluggish."
 msgstr ""
-"NOTA BENE : Les options ci-dessous sont destinées à optimiser votre base de "
-"données. Ils ne sont appliqués qu'à vos publicités/groupes et statistiques, "
-"et non pas aux autres parties de Wordpress! Ayez toujours une sauvegarde de "
-"votre site! Ces fonctions seront utilisées quand vous sentez que votre base "
-"de données est lente ou ne réponds pas."
+"ПРИМЕЧАНИЕ: приведенные ниже функции помогают ОПТИМИЗИРОВАТЬ вашу БД. Они "
+"применяются только в кашим объявлениям/грппам и статистике, и не для какой "
+"другой части WordPress! Всегда создавайте бэкап! Используйте эти функции в "
+"случае если ваша БД медленно работает или не отвечае."
 
 #: adrotate.php:1514 adrotate.php:1516
 msgid "Optimize Database"
@@ -1996,23 +1979,20 @@ msgstr ""
 "расписания. Иногда эти записи бывают некорректными."
 
 #: adrotate.php:1527
-#, fuzzy
 msgid ""
 "If you made an ad, group or schedule that does not save when you make it use "
 "this button to delete those empty records."
 msgstr ""
-"Si vous avez créé une publicité ou un groupe et celui-ci n'est pas "
-"sauvegardé quand vous le créez, cliquez sur ce bouton opur effacer ces "
-"registres vides."
+"Если вы не сохранили объявление, группу или расписание, то при успользовании "
+"кнопки удалить - удалятся пустые записи."
 
 #: adrotate.php:1527
-#, fuzzy
 msgid ""
 "Additionally you can clean up old schedules and/or statistics. This will "
 "improve the speed of your site."
 msgstr ""
-"En outre, vous pouvez nettoyer les anciennes statistiques. Cela permettre "
-"d'améliorer la vitesse de votre site."
+"Так же вы можете очистить старые расписания и/или статистику. Это улучшит "
+"производительность сайта."
 
 #: adrotate.php:1531
 msgid "Re-evaluate Ads"
@@ -2027,14 +2007,12 @@ msgid "You are about to check all ads for errors."
 msgstr "Вы собираетесь проверить все объявления на ошибки."
 
 #: adrotate.php:1534
-#, fuzzy
 msgid ""
 "This will apply all evaluation rules to all ads to see if any error slipped "
 "in. Normally you should not need this feature."
 msgstr ""
-"Cela appliquera toutes les règles d'évaluation à toutes les annonces pour "
-"voir si une erreur existe. Vous ne devriez pas avoir besoin de cette "
-"fonctionalité."
+"Будут применяться все правила оценки для всех объявлений, чтобы увидеть, "
+"какие ошибки были допущены. Скорей всего вам не потребуется эта функция."
 
 #: adrotate.php:1538
 msgid ""
@@ -2045,6 +2023,11 @@ msgid ""
 "database likely was beyond repair already. Claiming it worked before "
 "clicking these buttons is not a valid point in any case."
 msgstr ""
+"ПРЕДУПРЕЖДЕНИЕ: мы не несем отвествтенности за ваши данные, если они по "
+"какой либо причине были утеряны или повреждены. Вы всегда должны иметь "
+"резервную копию данных. Эта фунция ни каким образом не может повлиять на "
+"работу данных. Если они были утеряны после работы этой функции, это значит, "
+"что они были неисправны еще до работы этой функции."
 
 #: adrotate.php:1546
 msgid "Troubleshooting"
@@ -2109,6 +2092,11 @@ msgid ""
 "used as a measure of troubleshooting upon request but for normal use they "
 "SHOULD BE LEFT UNCHECKED!!"
 msgstr ""
+"ПРИМЕЧАНИЕ: приведенные ниже настройки не предназначены для ежедневного "
+"использования, а необходимы для разработчиков для отслеживания сохраненных "
+"настроек или как отбираются объявления. Они могут быть использованы в "
+"качестве меры устранения неисправностей по запросу, но и для нормальной "
+"эксплуатации ГАЛОЧКИ НЕ ДОЛЖНЫ БЫТЬ ОТМЕЧЕНЫ!"
 
 #: adrotate.php:1572
 msgid "Developer Debug"
@@ -2117,6 +2105,8 @@ msgstr "Отладка для разработчика"
 #: adrotate.php:1574
 msgid "Troubleshoot ads and how (if) they are selected, has front-end output."
 msgstr ""
+"Проблемные объявления и как (если) они выбираются, имея интерфейсное "
+"отображение."
 
 #: adrotate.php:1575
 msgid "Show all settings, dashboard routines and related values."
@@ -2127,31 +2117,30 @@ msgid "Show array of all userroles and capabilities."
 msgstr "Показать массив всех пользовательских ролей и возможностей."
 
 #: adrotate.php:1577
-#, fuzzy
 msgid "Review saved advertisers! Visible to advertisers."
-msgstr "Réexaminer les annonceurs! Visible pour les annonceurs."
+msgstr "Обзор сохранений рекламодателей! Видимо для рекламодателей."
 
 #: adrotate.php:1578
-#, fuzzy
 msgid "Review Full Report, per ad/group stats. Visible only to publishers."
 msgstr ""
-"Voir le suivi des statistiques globales, ainsi que par publicité/groupe. "
-"Visible uniquement aux annonceurs."
+"Показать полный отчет рекламы/статистики группы. Отображается только для "
+"издателей."
 
 #: adrotate.php:1579
 msgid ""
 "Output retrieved Geo data or errors related to the retrieving of Geo "
 "Services."
 msgstr ""
+"Вывод полученных гео дааных или ошибки, связанные с получением из гео "
+"сервисов."
 
 #: adrotate.php:1580
-#, fuzzy
 msgid ""
 "Disable timers for clicks and impressions and enable a alert window for "
 "clicktracking."
 msgstr ""
-"Désactivez les minuteurs pour les clicks et les impressions et activez une "
-"fenêtre d'alerte pour le suivi des clicks."
+"Отключения счетчика кликов и показов и активация предупреждения для "
+"отслеживания кликов."
 
 #: adrotate.php:1581
 msgid "Temporarily disable encryption on the redirect url."
@@ -2166,6 +2155,8 @@ msgid ""
 "For network activated setups like this you need a Network or Developer "
 "License."
 msgstr ""
+"Для настроек активации подобных сетей вам необходима лицензия сети или "
+"разработчика."
 
 #: dashboard/adrotate-info.php:28
 msgid "Currently"
@@ -2348,6 +2339,8 @@ msgstr "Отслеживание кликов включено но в коде 
 msgid ""
 "Please contact staff, a Click rate was set but clicktracking is not active!"
 msgstr ""
+"Рейтинг кликов был установлен, но отслеживание кликов неактивно. Обратитесь "
+"к администратору."
 
 #: dashboard/advertiser/adrotate-edit.php:70
 #: dashboard/publisher/adrotate-ads-edit.php:85
@@ -2421,9 +2414,8 @@ msgid "Title:"
 msgstr "Название:"
 
 #: dashboard/advertiser/adrotate-edit.php:122
-#, fuzzy
 msgid "For your and the staffs reference."
-msgstr "Votre configuration"
+msgstr "Для ваших ссылок и ссылок персонала"
 
 #: dashboard/advertiser/adrotate-edit.php:126
 #: dashboard/publisher/adrotate-ads-edit.php:140
@@ -2539,6 +2531,8 @@ msgid ""
 "The staff usually is free to change this value depending on their agreement "
 "with you."
 msgstr ""
+"Gthcjyfk, как правило, имеет право изменить это значение в зависимости от "
+"договоренностей."
 
 #: dashboard/advertiser/adrotate-edit.php:182
 msgid "GeoLocation"
@@ -2549,10 +2543,13 @@ msgid ""
 "Cities or countries configured do only/apply to groups with GeoLocation "
 "enabled and is ignored everywhere else."
 msgstr ""
+"Города или страны, настроенные делать только/применять к группам с "
+"включенной геолокацией и игнорировать везде."
 
 #: dashboard/advertiser/adrotate-edit.php:183
 msgid "Check with your publisher if localized adverts are possible for you."
 msgstr ""
+"Уточните у администратора, возможно ли для вас объявления с геолокацией."
 
 #: dashboard/advertiser/adrotate-edit.php:189
 msgid "Cities"
@@ -2855,6 +2852,8 @@ msgstr "Отключеные объявления"
 #: dashboard/advertiser/adrotate-main-disabled.php:14
 msgid "The ads in here are disabled but kept for reference or later use."
 msgstr ""
+"Объявления здесь отключено но остались для справки или дальнейшего "
+"использования."
 
 #: dashboard/advertiser/adrotate-main-disabled.php:24
 #: dashboard/advertiser/adrotate-main-queue.php:21
@@ -2889,6 +2888,8 @@ msgid ""
 "Ads listed here are queued for review, rejected by a reviewer or have a "
 "configuration error."
 msgstr ""
+"Объявления здесь в очереди на модерацию, отклонены или имеют ошибки в "
+"настройках"
 
 #: dashboard/advertiser/adrotate-main-queue.php:46
 #: templates/adrotate-queued.php:48
@@ -3177,9 +3178,8 @@ msgid "Clicks today"
 msgstr "Кликов сегодня"
 
 #: dashboard/advertiser/adrotate-report.php:59
-#, fuzzy
 msgid "Periodic overview of clicks and impressions"
-msgstr "Synthèse mensuelle de clics et d'impressions"
+msgstr "Периодичный обзор кликов и просмотров"
 
 #: dashboard/advertiser/adrotate-report.php:63
 msgid "Shown from"
@@ -3232,6 +3232,8 @@ msgid ""
 "This advert has run out of budget. Add more budget to the advert or reset "
 "the rate to zero!"
 msgstr ""
+"У данного объявления закончился бюджет Добавьте бюджет объявления или "
+"сбросьте на ноль!"
 
 #: dashboard/publisher/adrotate-ads-edit.php:71
 msgid "This ad has no schedules!"
@@ -3239,7 +3241,7 @@ msgstr "У этого объявления нет распиания!"
 
 #: dashboard/publisher/adrotate-ads-edit.php:77
 msgid "A Click rate was set but clicktracking is not active!"
-msgstr ""
+msgstr "Рейтинг кликов был установлен, но отслеживание кликов неактивно"
 
 #: dashboard/publisher/adrotate-ads-edit.php:82
 msgid ""
@@ -3458,6 +3460,8 @@ msgid ""
 "This works if you assign the advert to a group and enable that group to use "
 "Geo Targeting."
 msgstr ""
+"Это работает если вы назначите объявлению группу и вклчите для группы "
+"геолокацию."
 
 #: dashboard/publisher/adrotate-ads-edit.php:294
 msgid "Cities/States:"
@@ -3587,6 +3591,9 @@ msgid ""
 "Try to evenly spread impressions for each advert over the duraction of this "
 "schedule. This may cause adverts to intermittently not show."
 msgstr ""
+"Попробуйте равномерно распределить показы для каждого объявления по "
+"продолжительности расписания. Это может вызвать переодическое не отображение "
+"объявлений."
 
 #: dashboard/publisher/adrotate-ads-edit.php:454
 #: dashboard/publisher/adrotate-schedules-edit.php:139
@@ -3605,14 +3612,17 @@ msgid ""
 "and applies to all adverts using this schedule combined. Every schedule can "
 "have it's own limit!"
 msgstr ""
+"Максимальные клики и показы измеряются только для установленного расписания "
+"и применяются ко всем объявлениям с этим расписанием. Каждое расписание "
+"может иметь свои собственные ограничения!"
 
 #: dashboard/publisher/adrotate-ads-edit.php:457
 msgid "You can add, edit or delete schedules from the"
-msgstr ""
+msgstr "Вы можете добавить, изменить или удалить расписания из"
 
 #: dashboard/publisher/adrotate-ads-edit.php:457
 msgid "dashboard. Save your advert first!"
-msgstr ""
+msgstr "консоли. Но сначала сохраните объявление!"
 
 #: dashboard/publisher/adrotate-ads-edit.php:487
 msgid "impressions per hour"
@@ -3620,7 +3630,7 @@ msgstr "показов в час"
 
 #: dashboard/publisher/adrotate-ads-edit.php:496
 msgid "Schedules not in use by this advert are hidden."
-msgstr ""
+msgstr "Расписания, не используемые этим объявлением, скрыты."
 
 #: dashboard/publisher/adrotate-ads-edit.php:508
 msgid "Select Groups"
@@ -3977,11 +3987,8 @@ msgstr ""
 "когда группа будет недоступна."
 
 #: dashboard/publisher/adrotate-groups-edit.php:222
-#, fuzzy
 msgid "Leave empty or 0 to skip this. Will default to group id."
-msgstr ""
-"Laissez vide ou mettez à zéro pour l'ignorer. Sera mis à la valeur par "
-"défaut de l'identifiant du groupe."
+msgstr "Оставьте пустым или поставьте 0. Будет по умолчанию для ID группы."
 
 #: dashboard/publisher/adrotate-groups-edit.php:228
 msgid "Insert ads to the begin or end of a post/page."
@@ -4280,6 +4287,8 @@ msgid ""
 "Adverts hide schedules that are not used by that advert. Edit the advert and "
 "create the schedule from each advert instead."
 msgstr ""
+"Объявления скрывают расписания, неиспользуемые этим объявлением. Измените "
+"объявление и состайте расписание из каждого объявления вместо этого."
 
 #: dashboard/publisher/adrotate-schedules-edit.php:143
 #: dashboard/publisher/adrotate-schedules-edit.php:202
@@ -4316,13 +4325,12 @@ msgid "Adverts received from server"
 msgstr "Объявления, полученные от сервера"
 
 #: dashboard/server/adrotate-active.php:13
-#, fuzzy
 msgid ""
 "These adverts are circulating in the pool of active adverts, served from "
 "AdRotate server."
 msgstr ""
-"Ces publicités sont en circulation dans la séléction de publicités actives "
-"servies par AdRotate server."
+"Эти объявления циркулируются в облаке активных объявлений, которые продаются "
+"на сервере AdRotate."
 
 #: dashboard/server/adrotate-active.php:19
 msgid "Added / Updated"
@@ -4350,22 +4358,20 @@ msgid "AdRotate Server Settings"
 msgstr "Настройки сервера AdRotate"
 
 #: dashboard/server/adrotate-settings.php:21
-#, fuzzy
 msgid ""
 "Link this website to an AdRotate server so your adverts and stats are "
 "synchronised regularly."
 msgstr ""
-"Lier ce site web à un serveur Adrotate pour que vos publicités et vos "
-"statistiques soient synchronisées regulièrement."
+"Свяжите этот сайт с сервером AdRotate для регулярной синхронизации ваших "
+"объявлений и статистики."
 
 #: dashboard/server/adrotate-settings.php:24
 msgid "Status"
 msgstr "Состояние"
 
 #: dashboard/server/adrotate-settings.php:27
-#, fuzzy
 msgid "Linked - Adverts can be synced."
-msgstr "Lié - Les publicités peuvent être synchronisées"
+msgstr "Привязано - Объявления могут синхронизироваться."
 
 #: dashboard/server/adrotate-settings.php:27
 msgid "Not linked - No adverts will be synced."
@@ -4434,6 +4440,8 @@ msgid ""
 "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
 "\" onclick=\"document.location.reload(); return false;\">Try again</a>"
 msgstr ""
+"Неожиданная ошибка HTTP во время API запроса.</p> <p><a href=\"?\" onclick="
+"\"document.location.reload(); return false;\">Повтор</a>"
 
 #: library/license-functions.php:79
 msgid "An unknown error occurred"
@@ -4441,7 +4449,7 @@ msgstr "Неизвестная ошибка"
 
 #: library/license-functions.php:135
 msgid "An Unexpected HTTP Error occurred during the Support API request.</p>"
-msgstr ""
+msgstr "Неожиданная ошибка HTTP во время поддержки API запроса.</p>"
 
 #: templates/adrotate-active.php:27
 msgid "ID - Title"
@@ -4455,6 +4463,8 @@ msgstr "Видимый с"
 msgid ""
 "No adverts found, if you feel this to be in error contact your publisher."
 msgstr ""
+"Объявлений не найдено. Если вы думаете, что это ошибка - свяжитесь с "
+"администратором."
 
 #, fuzzy
 #~ msgid "Check out the"
