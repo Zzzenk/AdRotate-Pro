@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: AdRotate Pro\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-15 01:12+0100\n"
-"PO-Revision-Date: 2015-01-22 18:53+0300\n"
+"PO-Revision-Date: 2015-04-09 21:38+0300\n"
 "Last-Translator: Arnan de Gans <info@ajdg.net>\n"
 "Language-Team: Zenk <zenk@list.ru>\n"
 "Language: ru_RU\n"
@@ -872,7 +872,7 @@ msgstr "Ноябрь"
 #: dashboard/publisher/adrotate-schedules-edit.php:76
 #: dashboard/publisher/adrotate-schedules-edit.php:97
 msgid "December"
-msgstr "ДекабрьDécembre"
+msgstr "Декабрь"
 
 #: adrotate-statistics.php:235
 msgid "Previous"
